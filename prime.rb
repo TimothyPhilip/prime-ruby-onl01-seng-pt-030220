@@ -1,10 +1,6 @@
 def prime?(integer)
-  i = 2
-  
-    return false if integer % i == 0 || integer.negative()
-   i = i + 1
+  if integer <= 2 || integer.negative? 
   end
-  true
 end
 
 
