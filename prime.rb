@@ -1,3 +1,3 @@
 def prime?(integer)
-  (2...num -1)
+  (2...integer -1)
 end
