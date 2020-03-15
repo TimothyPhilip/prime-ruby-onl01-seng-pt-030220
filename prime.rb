@@ -1,7 +1,4 @@
-def prime?(integer)
-  if integer.negative?() 
-  end
-end
+
 
 
 # def prime?(integer)
