@@ -3,4 +3,5 @@ def prime?(integer)
     return false if (integer % n == 0 || integer.negative?)
 
   end
+  true
 end
