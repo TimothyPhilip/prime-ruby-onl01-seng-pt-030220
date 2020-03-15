@@ -1,7 +1,9 @@
 def prime?(integer)
-  integer.each do |n|
-    return false if (integer % n == 0 || integer.negative?)
-
+  i = 2
+  while i < integer
+    return false if integer % i == 0 
+      
+   i = i + 1
   end
-  true
+  integer.negative()
 end
